@@ -13,6 +13,9 @@
     .card-text {
     margin-top: 4px;
     }
+    .img-thumbnail {
+      height: 600px;
+    }
 </style>
 
 <div class="row">
@@ -20,11 +23,11 @@
 
         <div class="card">
     {% load static %}
-    <img class="img-thumbnail" src="{% static './img/img.jpg' %}">
+    <img class="img-thumbnail" src="{% static './img/image.png' %}">
   <div class="card-body">
-    <h5 class="card-title">Retail report</h5>
-    <p class="card-text">Analyze your transactional data from MongoDB.</p>
-    <a href="{% url 'report' %}" class="btn btn-primary">Open report</a>
+    <h5 class="card-title">Data analysis dashboard</h5>
+    <p class="card-text">Analyze your transactional data using this dashboard.</p>
+    <a href="{% url 'report' %}" class="btn btn-primary">Open dashboard</a>
   </div>
 </div>
 </div>
