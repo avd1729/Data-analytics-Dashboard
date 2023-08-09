@@ -70,6 +70,11 @@ python manage.py runserver
 
 The application should now be running locally at `http://127.0.0.1:8000/`.
 
+### 7.Sample
+
+<img width="1280" alt="image" src="https://github.com/avd1729/Data-analytics-Dashboard/assets/94891044/c3007d97-6f77-47f0-a106-436c6e2e2c74">
+
+
 ## Usage
 
 Open your web browser and navigate to `http://127.0.0.1:8000/` to access the Django Data Analysis Dashboard. The dashboard provides an intuitive interface to perform various data analysis tasks.
