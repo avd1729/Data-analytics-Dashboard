@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<script src="https://cdn.flexmonster.com/flexmonster.js"></script>
+<style>
+    #pivot_chart {
+    margin-top: 20px;
+    }
+</style>
+    <div id="pivot"></div>
+    <div id="pivot_chart"></div>
+    <script type="text/javascript">
+    var pivot = new Flexmonster({
+    container: "#pivot",
+    componentFolder: "https://cdn.flexmonster.com/",
+    height: 600,
+    toolbar: true,
+    report: {
+        
+    }
+});
+
+</script>
+{% endblock %}
